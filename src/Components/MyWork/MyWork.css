@@ -1,0 +1,73 @@
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 10%;
+}
+
+.mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(27, 172, 220);
+}
+
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 2px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-container{
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.project-container img{
+    width: 100%;
+    height: 80%;
+    transition: 0.3s;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.project-container h3{
+    font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media(max-width:768px){
+    .mywork{
+        gap: 50px;
+        margin: 50px 6%;
+        align-items: start;
+    }
+    
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .mywork-container h3{
+        font-size: 14px;
+    }
+   
+}
