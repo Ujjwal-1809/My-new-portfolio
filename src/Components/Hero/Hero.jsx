@@ -48,7 +48,7 @@ const Hero = () => {
         <AnchorLink className="anchor-link hero-connect" offset={50} href="#contact">
           Connect with me
         </AnchorLink>
-        <div className="hero-resume">My resume</div>
+        <a target="blank" href="/My-Resume.pdf" rel="noopener noreferrer" className="hero-resume">My resume</a>
       </motion.div>
     </motion.div>
   );

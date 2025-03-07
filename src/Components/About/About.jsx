@@ -54,11 +54,11 @@ const About = () => {
         >
           <div className="about-para">
             <p>
-              Hi, I'm Ujjwal, a Full-Stack Web Developer passionate about
+              Hi, I'm <span>Ujjwal</span>, A Full-Stack Web Developer passionate about
               building dynamic and user-friendly web applications. I specialize
               in the MERN stack (MongoDB, Express.js, React.js, Node.js) and
               have hands-on experience in developing and deploying interactive
-              and responsive applications.
+              and responsive web applications.
             </p>
             <p>
               My projects showcase my ability to combine creativity with
